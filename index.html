@@ -1,131 +1,108 @@
-<!DOCTYPE html>
-<html lang="hi">
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Takmeeli Talbina | تکمیلی تلبینہ</title>
-  <meta name="description" content="Takmeeli Talbina — 250g packs in Milk Mawa, Vanilla, Elaichi & Baby-friendly mix. 7% online discount. No returns.">
-  <style>
-    :root {
-      --brand:#8b5e3c;
-      --bg:#fff8ec;
-      --card:#ffffff;
-      --accent:#f2e2c9;
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0; font-family: Arial, sans-serif; background: var(--bg); color:#222;
-    }
-    header {
-      background: var(--brand); color:#fff; text-align:center; padding:18px 12px;
-    }
-    header h1 { margin:0; font-size:28px; }
-    header p { margin:6px 0 0; opacity:.95 }
-    .wrap { max-width: 980px; margin: 0 auto; padding: 18px; }
-    .notice { background: #ffe0e0; color:#a40000; padding:10px 12px; border-radius:10px; font-weight:600; text-align:center; }
-    .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(240px,1fr)); gap:16px; margin-top:16px; }
-    .card { background:var(--card); border-radius:14px; box-shadow:0 6px 18px rgba(0,0,0,.06); overflow:hidden; }
-    .card img { width:100%; display:block; }
-    .card .body { padding:12px; }
-    .card h3 { margin:4px 0 8px; font-size:18px; color:#000; }
-    .price { background:var(--accent); padding:8px 10px; border-radius:10px; margin:8px 0; font-weight:700; }
-    .muted { opacity:.8; font-size:14px; }
-    .section-title { margin:26px 0 10px; font-size:22px; color:#000; }
-    .cta { display:flex; gap:10px; flex-wrap:wrap; justify-content:center; margin:14px 0 0; }
-    .btn {
-      background: var(--brand); color:#fff; border:none; padding:10px 14px; border-radius:10px;
-      text-decoration:none; display:inline-block; font-weight:700;
-    }
-    .btn.alt { background:#25D366; }
-    footer { margin-top:28px; background:#111; color:#eee; text-align:center; padding:16px; font-size:14px; }
-    .lang {
-      display:flex; gap:6px; justify-content:center; flex-wrap:wrap; margin-top:8px; font-size:14px; opacity:.9;
-    }
-    .cert { display:grid; grid-template-columns: repeat(auto-fit, minmax(260px,1fr)); gap:14px; }
-    .cert img { width:100%; border-radius:12px; box-shadow:0 6px 18px rgba(0,0,0,.08); }
-  </style>
+  <meta name="description" content="Talbina — Sunnah gift of health. Order online via WhatsApp." />
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#6b4423"/>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/icons/icon-192.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Talbina">
 </head>
 <body>
-  <header>
-    <h1>Takmeeli Talbina | تکمیلی تلبینہ</h1>
-    <p>सुन्नत सेहत का तोहफ़ा • سنت صحت کا تحفہ • Sunnah gift of health</p>
+  <header class="hero">
+    <h1>Takmeeli Talbina <span class="urdu">| تکمیلی تلبینہ</span></h1>
+    <h2 class="urdu">تلبینہ</h2>
+    <p class="tagline">
+      <span class="hi">सुन्नत सेहत का तोहफ़ा</span> • 
+      <span class="ur">سنت صحت کا تحفہ</span> • 
+      <span> Sunnah gift of health</span>
+    </p>
   </header>
 
-  <div class="wrap">
-    <div class="notice">❌ रिटर्न नहीं होगा • 💳 ऑनलाइन/कैश पेमेंट पर <b>7% छूट</b> • वजन: <b>250 ग्राम</b></div>
+  <section class="notice">
+    <div>❌ <strong>नॉन‑रिटर्न</strong> • 🇮🇳 <strong>ऑनलाइन/कैश पेमेंट पर 7% छूट</strong> • <strong>पैक: 250 ग्राम</strong></div>
+  </section>
 
-    <h2 class="section-title">Products / پروڈکٹس / उत्पाद</h2>
-    <div class="grid">
-      <div class="card">
-        <img src="assets/images/milk_1.png" alt="Milk Mawa Flavour">
-        <div class="body">
-          <h3>Milk Mawa Flavour</h3>
-          <div class="price">Large ₹250 • Small ₹270</div>
-          <div class="lang">
-            <span>سنتی غذاء</span><span>|</span><span>Traditional wholesome mix</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="card">
-        <img src="assets/images/vanilla_1.png" alt="Vanilla Flavour">
-        <div class="body">
-          <h3>Vanilla Flavour</h3>
-          <div class="price">Large ₹250 • Small ₹270</div>
-          <div class="lang">
-            <span>ہلکی خوشبو، ذائقہ دار</span><span>|</span><span>Light aroma, tasty</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="card">
-        <img src="assets/images/elaichi_1.png" alt="Elaichi Flavour">
-        <div class="body">
-          <h3>Elaichi (Cardamom) Flavour</h3>
-          <div class="price">Large ₹250 • Small ₹270</div>
-          <div class="lang">
-            <span>الائچی خوشبو</span><span>|</span><span>Cardamom aroma</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="card">
-        <img src="assets/images/baby_1.png" alt="For 6+ months babies">
-        <div class="body">
-          <h3>6 महीने के बच्चों के लिए</h3>
-          <div class="price">250g • Gentle & baby-friendly</div>
-          <div class="lang">
-            <span>بچوں کیلئے نرم غذاء</span><span>|</span><span>Soft & easy to digest</span>
-          </div>
-        </div>
-      </div>
+  <main class="container">
+    <div class="lang-row">
+      <label>Language:</label>
+      <select id="langSelect">
+        <option value="en">English</option>
+        <option value="hi" selected>हिन्दी</option>
+        <option value="ur">اردو</option>
+      </select>
+      <button id="installBtn" class="btn outline" hidden>Install App</button>
+      <a class="btn outline" href="#admin">Admin</a>
     </div>
 
-    <div class="cta">
-      <a class="btn alt" href="https://wa.me/919997007267?text=Assalamualaikum!%20Mujhe%20Takmeeli%20Talbina%20order%20karna%20hai." target="_blank">WhatsApp Order</a>
-      <a class="btn" href="mailto:talbinatakmili@gmail.com">Email Us</a>
+    <h3 id="productsTitle">Products / پروڈکٹس / उत्पाद</h3>
+    <div id="products" class="list"></div>
+
+    <div class="cta-row">
+      <a id="waBtn" class="btn wa" target="_blank" rel="noopener">WhatsApp Order</a>
+      <a id="mailBtn" class="btn" href="mailto:talbinatakmili@gmail.com">Email Us</a>
     </div>
 
-    <h2 class="section-title">Hadith / حدیث / हदीस</h2>
-    <p class="muted">“Talbeena soothes the heart of the sick and relieves some of their sorrow.” — Sahih Bukhari</p>
+    <section>
+      <h3>Hadith / حدیث / हदीस</h3>
+      <blockquote id="hadith">
+        “Talbeena soothes the heart of the sick and relieves some of their sorrow.” — <em>Sahih Bukhari</em>
+      </blockquote>
+      <small>आप सटीक हदीस हवालों के साथ टेक्स्ट बाद में बदल सकते हैं।</small>
+    </section>
 
-    <h2 class="section-title">Certificates / سرٹیفکیٹس / प्रमाण पत्र</h2>
-    <div class="cert">
-      <img src="assets/images/cert_1.png" alt="Certificate">
-      <img src="assets/images/cert_2.png" alt="Certificate">
+    <section>
+      <h3>Certificates / سرٹیفکیٹس / प्रमाण पत्र</h3>
+      <div class="certs">
+        <img src="assets/cert-placeholder.png" alt="Certificate">
+        <img src="assets/cert-placeholder.png" alt="Certificate">
+      </div>
+    </section>
 
-    </div>
+    <section>
+      <h3>Recipe / ترکیب / विधि</h3>
+      <p id="recipe">1–2 tbsp Talbina powder in warm milk/water, stir well, simmer 3–5 mins. Add honey or dates to taste.</p>
+    </section>
 
-    <h2 class="section-title">Recipe / ترکیب / विधि</h2>
-    <p class="muted">1-2 tbsp Talbina powder in warm milk/water, stir well, simmer 3–5 mins. Add honey or dates for taste.</p>
+    <section id="contact">
+      <h3>Contact</h3>
+      <p>📞 <a href="tel:9997007267">9997007267</a> • ✉️ <a href="mailto:talbinatakmili@gmail.com">talbinatakmili@gmail.com</a></p>
+      <p>UPI: <em>(बाद में admin में जोड़ें)</em></p>
+    </section>
 
-    <h2 class="section-title">Contact</h2>
-    <p>📞 9997007267 &nbsp; • &nbsp; ✉️ talbinatakmili@gmail.com</p>
-    <p class="muted">UPI: (आप बाद में admin में जोड़ेंगे)</p>
-  </div>
+    <footer class="footer">© 2025 Takmeeli Talbina — No Returns • 7% Online/Cash Discount</footer>
+  </main>
 
-  <footer>
-    © 2025 Takmeeli Talbina — No Returns • 7% Online/Cash Discount
-  </footer>
+  <section id="admin" class="admin">
+    <h2>Admin (local demo)</h2>
+    <p>यह demo बिना backend के चलता है। Firebase कॉन्फ़िग देने पर असली लॉगिन/डेटाबेस चालू होगा।</p>
+
+    <details>
+      <summary>Add product (local)</summary>
+      <form id="addForm">
+        <div class="grid">
+          <input name="name_en" placeholder="Name (EN)" required/>
+          <input name="name_hi" placeholder="नाम (HI)" required/>
+          <input name="name_ur" placeholder="نام (UR)" required/>
+          <input name="price_large" placeholder="Large Price (₹)" type="number" required/>
+          <input name="price_small" placeholder="Small Price (₹)" type="number" required/>
+          <input name="image" placeholder="Image URL (PNG/JPG)" />
+          <textarea name="desc_en" placeholder="Short description EN"></textarea>
+          <textarea name="desc_hi" placeholder="विवरण HI"></textarea>
+          <textarea name="desc_ur" placeholder="تفصیل UR"></textarea>
+        </div>
+        <button class="btn">Save (Local)</button>
+      </form>
+    </details>
+    <button id="clearLocal" class="btn outline">Reset local data</button>
+  </section>
+
+  <script src="app.js"></script>
 </body>
 </html>
